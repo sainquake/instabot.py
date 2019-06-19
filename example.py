@@ -4,18 +4,18 @@
 from instabot_py import InstaBot
 
 bot = InstaBot(
-    login="username",  # Enter username (lowercase). Do not enter email!
-    password="password",
-    like_per_day=1000,
+    login="",  # Enter username (lowercase). Do not enter email!
+    password="",
+    like_per_day=5000,
     comments_per_day=0,
-    tag_list=["follow4follow", "f4f", "cute", "l:212999109"],
-    tag_blacklist=["rain", "thunderstorm"],
+    tag_list=["kazan","κΰηΰνό"],
+    tag_blacklist=[],
     user_blacklist={},
-    max_like_for_one_tag=50,
+    max_like_for_one_tag=1000,
     follow_per_day=300,
     follow_time=1 * 60 * 60,
     unfollow_per_day=300,
-    unlike_per_day=0,
+    unlike_per_day=5000,
     unfollow_recent_feed=True,
     # If True, the bot will also unfollow people who dont follow you using the recent feed. Default: True
     time_till_unlike=3 * 24 * 60 * 60,  # 3 days
@@ -31,7 +31,7 @@ bot = InstaBot(
     comment_list=[
         ["this", "the", "your"],
         ["photo", "picture", "pic", "shot"],
-        ["is", "looks", "is π‘‰", "is really"],
+        ["is", "looks", "is ??", "is really"],
         [
             "great",
             "super",
@@ -60,7 +60,7 @@ bot = InstaBot(
             "excellent",
             "amazing",
         ],
-        [".", "π™", "... π‘", "!", "! π", "π"],
+        [".", "??", "... ??", "!", "! ??", "??"],
     ],
     # Use unwanted_username_list to block usernames containing a string
     # Will do partial matches; i.e. 'mozart' will block 'legend_mozart'
